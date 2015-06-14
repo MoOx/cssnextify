@@ -4,7 +4,7 @@
   "description": "A Browserify transform for css & cssnext",
   "main": "src/index.js",
   "directories": {
-    "test": "./node_modules/.bin/mocha tests"
+    "test": "./node_modules/.bin/mocha"
   },
   "dependencies": {
     "through2": "^2.0.0",
