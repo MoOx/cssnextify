@@ -1,0 +1,37 @@
+{
+  "name": "cssnextify",
+  "version": "1.0.0",
+  "description": "A Browserify transform for css & cssnext",
+  "main": "src/index.js",
+  "directories": {
+    "test": "./node_modules/.bin/mocha tests"
+  },
+  "dependencies": {
+    "through2": "^2.0.0",
+    "cssnext": "^1.6.0"
+  },
+  "devDependencies": {
+    "browserify": "^10.2.4",
+    "jsdom": "^3.1.2",
+    "mocha": "^2.2.5"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ByteMuse/cssnextify.git"
+  },
+  "keywords": [
+    "browserify",
+    "transform",
+    "css",
+    "cssnext"
+  ],
+  "author": "ByteMuse",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ByteMuse/cssnextify/issues"
+  },
+  "homepage": "https://github.com/ByteMuse/cssnextify"
+}

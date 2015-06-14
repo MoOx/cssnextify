@@ -1,0 +1,9 @@
+:root {
+  --roses: red;
+  --violets: blue;
+  --iNeed: #C0FFEE;
+}
+
+body {
+  background-color: var(--violets);
+}
