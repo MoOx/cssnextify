@@ -1,5 +1,5 @@
 # cssnextify [![Build Status](https://travis-ci.org/ByteMuse/cssnextify.svg?branch=master)](https://travis-ci.org/ByteMuse/cssnextify)
-A Browserify transform for css & cssnext.
+A Browserify transform for css & [cssnext](http://cssnext.io).
 
 ## Installation
 This package is available as NPM package.
