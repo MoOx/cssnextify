@@ -5,13 +5,13 @@ A Browserify transform for css & [cssnext](http://cssnext.io).
 This package is available as NPM package.
 ### NPM
 ```
-$ npm install segments --save
+$ npm install cssnextify --save
 ```
 
 ## Usage
 ### CLI
 ```
-$ browserify -t lessify main.js > bundle.js
+$ browserify -t cssnextify main.js > bundle.js
 ```
 
 ### Code
