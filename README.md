@@ -4,11 +4,15 @@ A Browserify transform for css & cssnext.
 ## Installation
 This package is available as NPM package.
 ### NPM
-`$ npm install segments --save`
+```
+$ npm install segments --save
+```
 
 ## Usage
 ### CLI
-`$ browserify -t lessify main.js > bundle.js`
+```
+$ browserify -t lessify main.js > bundle.js
+```
 
 ### Code
 ```javascript
