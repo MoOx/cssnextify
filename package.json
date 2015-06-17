@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ByteMuse/cssnextify.git"
+    "url": "https://github.com/cssnext/cssnextify.git"
   },
   "keywords": [
     "browserify",
@@ -28,7 +28,7 @@
   "author": "ByteMuse",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ByteMuse/cssnextify/issues"
+    "url": "https://github.com/cssnext/cssnextify/issues"
   },
-  "homepage": "https://github.com/ByteMuse/cssnextify"
+  "homepage": "https://github.com/cssnext/cssnextify"
 }
