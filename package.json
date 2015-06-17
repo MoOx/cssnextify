@@ -1,6 +1,6 @@
 {
   "name": "cssnextify",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A Browserify transform for css & cssnext",
   "main": "src/index.js",
   "scripts": {
