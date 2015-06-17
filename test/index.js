@@ -36,4 +36,14 @@ describe('#nextify', function() {
       })
     })
   })
+
+  it('should import relative to source file', function(done) {
+    var b = browserify()
+    b.add(__dirname + '/fixtures/import.css')
+    b.transform(cssnextify)
+    b.bundle(function(err, buf) {
+      assert.equal(err, null)
+      done()
+    })
+  })
 })

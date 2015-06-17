@@ -5,7 +5,7 @@ function canCompile(filename) {
   return /\.css$/.test(filename)
 }
 
-function compile(data) {
+function compile(data, filename) {
   function inject(css) {
     var style = document.createElement('style')
     style.type = 'text/css'
@@ -18,7 +18,7 @@ function compile(data) {
     document.getElementsByTagName('head')[0].appendChild(style)
   }
 
-  var style = cssnext(data)
+  var style = cssnext(data, { from: filename })
   return '(' + inject + ')(' + JSON.stringify(style) + ')'
 }
 
@@ -34,7 +34,7 @@ module.exports = function(filename) {
   }
 
   function end(cb) {
-    this.push(compile(data))
+    this.push(compile(data, filename))
     cb()
   }
 
