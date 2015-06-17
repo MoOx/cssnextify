@@ -1,4 +1,4 @@
-# cssnextify [![Build Status](https://travis-ci.org/ByteMuse/cssnextify.svg?branch=master)](https://travis-ci.org/ByteMuse/cssnextify)
+# cssnextify [![Build Status](https://travis-ci.org/cssnext/cssnextify.svg?branch=master)](https://travis-ci.org/cssnext/cssnextify)
 A Browserify transform for css & [cssnext](http://cssnext.io).
 
 ## Installation
