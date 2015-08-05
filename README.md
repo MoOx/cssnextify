@@ -9,6 +9,13 @@ $ npm install cssnextify --save
 ```
 
 ## Usage
+Require your css files from script:
+```javascript
+// main.js
+
+require('./style.css')
+```
+
 ### CLI
 ```
 $ browserify -t cssnextify main.js > bundle.js
