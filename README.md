@@ -1,3 +1,7 @@
+# DEPRECATED. Use browserify-postcss instead.
+
+---
+
 # cssnextify [![Build Status](https://travis-ci.org/cssnext/cssnextify.svg?branch=master)](https://travis-ci.org/cssnext/cssnextify)
 A Browserify transform for css & [cssnext](http://cssnext.io).
 
